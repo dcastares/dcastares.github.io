@@ -1,6 +1,6 @@
 ## Moving the camera with two finger touch in Unity
 
-I needed to let the user navigate a map using two fingers and swipe in devices, so I wrote this class you can attach to your camera in any 2D game. Also works with the mouse's right button so you can test it out in the editor.
+I needed to let the user navigate a map using two fingers in devices, so I wrote this class you can attach to your camera in any 2D game. Also works with the mouse's right button so you can test it out in the editor.
 
 ```csharp
 using UnityEngine;
