@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This site is just to save chunks of code from my projects that I don't want to lose. If you are looking for something specific, hope you can grab a piece of code that works for you.
