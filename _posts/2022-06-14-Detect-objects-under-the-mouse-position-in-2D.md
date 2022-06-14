@@ -14,7 +14,7 @@ No, it is not. A raycast can be used for many things as you will not always be s
 
 <h2>The Code</h2>
 
-So the code to detect our object on click that might be something like this:
+So the code to detect our object on click might be something like this:
 
 ```csharp
 if (Input.GetMouseButtonDown(0))
