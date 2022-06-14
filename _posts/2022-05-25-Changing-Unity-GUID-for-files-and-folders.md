@@ -16,3 +16,5 @@ Long story short, I was manually replacing GUIDs with Visual Studio Code in my p
 Thank you Jeff!
 
 <a target="_blank" href="https://github.com/jeffjadulco/unity-guid-regenerator">You can get the package here</a> and it's well documented on how it works and how to use it.
+
+If you have a comment, a question or a way to improve it, shoot me an email!
