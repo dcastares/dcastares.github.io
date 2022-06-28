@@ -20,6 +20,8 @@ https://github.com/jeffjadulco/unity-guid-regenerator.git
 
 After that, right click in your project files and just select "Regenerate GUIDS".
 
+One thing to take into account, is that in order for this to work (either using the Jeff's package or doing it manually), you need to have your assets serialized. This is done in Project Settings > Editor > Asset Serialization > Mode: "Force Text".
+
 Thank you Jeff!
 
 <a target="_blank" href="https://github.com/jeffjadulco/unity-guid-regenerator">You can get the package here</a> and it's well documented on how it works and how to use it.
