@@ -13,6 +13,13 @@ Let's say you have scripts, sprites, prefabs, or any other Unity component that 
 <h2>So, what can I do about it?</h2>
 
 Long story short, I was manually replacing GUIDs with Visual Studio Code in my project when I found this package from <a href="https://jeffjadulco.com/" target="_blank">Jeff Jadulco</a> that you can add to your project before the merge, and change all the GUIDs and references straight from the Unity's UI. 
+
+You can add the package from the following git url in the package manager:
+
+https://github.com/jeffjadulco/unity-guid-regenerator.git
+
+After that, right click in your project files and just select "Regenerate GUIDS".
+
 Thank you Jeff!
 
 <a target="_blank" href="https://github.com/jeffjadulco/unity-guid-regenerator">You can get the package here</a> and it's well documented on how it works and how to use it.
