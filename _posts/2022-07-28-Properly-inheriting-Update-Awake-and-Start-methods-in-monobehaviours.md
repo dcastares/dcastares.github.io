@@ -38,7 +38,7 @@ public class ChildClass: ParentClass
     protected override void Update()
     {
         base.Update();
-        //configuration stuff just in the child
+        //things to do every frame just in the child
     }
 }
 ```
