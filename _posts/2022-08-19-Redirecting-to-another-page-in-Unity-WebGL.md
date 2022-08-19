@@ -16,7 +16,7 @@ We will interact with the scripts in the browser to perform an old good javascri
 
 First, you will have to create a folder <b>Plugins</b> under your Assets folder, and there place a text file with the extension ".jslib". Then open this file and write the following code in it: 
 
-<code>
+```csharp
 var RedirectPage = {
     openUrl: function(link)
     {
@@ -25,7 +25,7 @@ var RedirectPage = {
 };
 
 mergeInto(LibraryManager.library, RedirectPage);
-</code>
+```
 
 And then from your C# code you can use it like this:
 
