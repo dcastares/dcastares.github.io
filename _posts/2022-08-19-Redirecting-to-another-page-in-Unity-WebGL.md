@@ -4,7 +4,9 @@ When you are building a game, app, or experience using WebGL in Unity, there are
 
 When you are working to publish your app in other platforms than WebGL, or using old versions of Unity, you can just call <a href="https://docs.unity3d.com/ScriptReference/Application.OpenURL.html" target="_blank">Application.OpenUrl</a> and get there.
 
-This changed lately, according to Unity's documentation: <i>WebGL: From version 2019.4.25f1, 2020.3.5f1, 2021.1.2f1, and 2021.2.0a11, Application.OpenURL opens url in a new browser tab. In previous versions, Application.OpenURL opens url in the same browser tab, which terminates the running Unity application.</i>
+This changed lately because 99% of the people (that's a lot) wanted to open a new tab, so according to Unity's documentation: 
+
+<i>WebGL: From version 2019.4.25f1, 2020.3.5f1, 2021.1.2f1, and 2021.2.0a11, Application.OpenURL opens url in a new browser tab. In previous versions, Application.OpenURL opens url in the same browser tab, which terminates the running Unity application.</i>
 
 So from now on, Application.OpenUrl will open the url in a new tab, with an ugly warning from the browser saying a popup was blocked (but that is another story).
 
