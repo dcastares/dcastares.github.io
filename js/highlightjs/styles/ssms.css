@@ -67,3 +67,7 @@ body {
 pre, code {
     background-color: darkslategrey;
 }
+
+a:hover {
+    color: darkolivegreen;
+}
