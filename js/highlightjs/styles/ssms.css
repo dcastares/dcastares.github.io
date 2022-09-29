@@ -49,3 +49,13 @@
 .language-tsql .hljs-literal {
     color: #808080;
 }
+
+
+body {
+    color: lightgray;
+    background-color: black;
+  }
+  
+  .site-title, .site-title:visited {
+    color: greenyellow;
+  }
