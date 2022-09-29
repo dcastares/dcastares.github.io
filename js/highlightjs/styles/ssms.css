@@ -59,3 +59,11 @@ body {
   .site-title, .site-title:visited {
     color: greenyellow;
   }
+
+  .site-nav .page-link {
+    color: white;
+    line-height: 1.5;
+}
+pre, code {
+    background-color: darkslategrey;
+}
