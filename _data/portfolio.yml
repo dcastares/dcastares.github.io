@@ -1,0 +1,55 @@
+- title: "Rumble Racer"
+  subtitle: "Online Multiplayer Racing (Mobile)"
+  role: "Lead / Main Unity Developer"
+  stack:
+    - "Unity"
+    - "C#"
+    - "Mirror"
+    - "KCP"
+    - ".NET (SignalR)"
+    - "Linux"
+    - "Docker"
+    - "Addressables"
+  description:
+    - "Lead developer on an online multiplayer mobile racing game, owning systems from prototype to production"
+    - "Achieved stable performance at 60 FPS on mobile through profiling-driven CPU/GPU and memory optimizations"
+    - "Reduced network usage from ~1 Mbps (prototype) to 20–30 Kbps per player in production by optimizing sync strategy, tick rates, message payloads, and replication (Mirror over KCP)"
+    - "Built and maintained end-to-end online flow: matchmaking queue → match start → race session → results → return to lobby, backed by a .NET matchmaking server using SignalR in a multi-region and highly available server infrastructure"
+    - "Improved loading times and content delivery through a production pipeline based on Addressables"
+    - "Deployed and operated the server stack on Linux using Docker containers (matchmaking + gameplay servers)"
+  links:
+    # Add store/trailer links here when available
+    # store: "https://..."
+    # trailer: "https://..."
+
+- title: "Sail and Dig"
+  subtitle: "Pirate Online RPG (Mobile)"
+  role: "Side Project (with brother - illustrator & art designer)"
+  stack:
+    - "Unity"
+    - "C#"
+    - "Mirror"
+  description:
+    - "Pirate-themed PvP online RPG built in Unity as a long-running production side project"
+    - "Implemented multiplayer gameplay using Mirror with a focus on PvP interactions, responsiveness, and stability on mobile networks"
+    - "Built progression/quest-driven structure and gameplay systems designed for iterative content expansion"
+  links:
+    # Add store/trailer links here when available
+    # store: "https://..."
+    # trailer: "https://..."
+
+- title: "Marketing & WebGL Interactive Experiences"
+  subtitle: "Various Client Projects"
+  role: "Lead Unity Developer"
+  stack:
+    - "Unity"
+    - "WebGL"
+    - "Mobile"
+    - "AR (Zappar, WebXR, 8thWall)"
+  description:
+    - "Led a small Unity team delivering interactive experiences for marketing and advertising campaigns"
+    - "Shipped multiple projects across mobile and WebGL, adapting quickly to varied scopes and timelines"
+    - "Set technical direction (architecture, review standards, performance budgets) and supported delivery planning"
+  links:
+    # Individual projects may be under NDA
+    # Add public links here if available

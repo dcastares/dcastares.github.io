@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: Blog Archive
+permalink: /archive/
 ---
 
 {% for tag in site.tags %}

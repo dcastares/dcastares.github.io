@@ -1,0 +1,10 @@
+<nav class="site-nav">
+  <div class="nav-container">
+    <a class="site-title" href="{{ '/' | relative_url }}">Diego Castares</a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Articles</a>
+      <a href="{{ '/portfolio/' | relative_url }}" {% if page.url contains '/portfolio' %}class="active"{% endif %}>Portfolio</a>
+      <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a>
+    </div>
+  </div>
+</nav>
