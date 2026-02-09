@@ -1,4 +1,4 @@
-## From prototype to production: A low-latency multiplayer stack on a tight budget
+## From prototype to production: A low-latency multiplayer stack
 
 When you start working on a real-time multiplayer game, the idea might seem simple, but it can escalate quickly. That happened when we started giving form to Rumble Racer with the Blyts team.
 
