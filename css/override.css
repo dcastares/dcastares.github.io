@@ -20,8 +20,37 @@
   --nav-border: #e6e6e6;
 }
 
+/* Dark theme - applied when data-theme="dark" */
+[data-theme="dark"] {
+  --text-color: #e6e6e6;
+  --text-color-light: #a0a0a0;
+  --bg-color: #1a1a1a;
+  --border-color: #333333;
+  --link-color: #e6e6e6;
+  --link-hover-color: #ffffff;
+  --code-bg: #2a2a2a;
+  --code-border: #404040;
+  --nav-bg: rgba(26, 26, 26, 0.98);
+  --nav-border: #333333;
+}
+
+/* Light theme override - applied when data-theme="light" */
+[data-theme="light"] {
+  --text-color: #242424;
+  --text-color-light: #6b6b6b;
+  --bg-color: #ffffff;
+  --border-color: #e6e6e6;
+  --link-color: #242424;
+  --link-hover-color: #000000;
+  --code-bg: #f5f5f5;
+  --code-border: #e0e0e0;
+  --nav-bg: rgba(255, 255, 255, 0.98);
+  --nav-border: #e6e6e6;
+}
+
+/* System preference - only applies when no data-theme is set */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
     --text-color: #e6e6e6;
     --text-color-light: #a0a0a0;
     --bg-color: #1a1a1a;
@@ -118,6 +147,40 @@ body {
   right: 0;
   height: 2px;
   background-color: var(--text-color);
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--text-color-light);
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  border-radius: 4px;
+}
+
+.theme-toggle:hover {
+  color: var(--text-color);
+  background-color: var(--code-bg);
+  transform: scale(1.1);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--link-color);
+  outline-offset: 2px;
+}
+
+.theme-toggle-icon {
+  display: inline-block;
+  font-size: 1.1em;
 }
 
 /* Headings */
@@ -585,6 +648,11 @@ th {
   .nav-links {
     gap: 1.5rem;
     width: 100%;
+    align-items: center;
+  }
+
+  .theme-toggle {
+    margin-left: auto;
   }
 
   .post-title {

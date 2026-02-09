@@ -21,7 +21,7 @@
     - "Deployed and operated the server stack on Linux using Docker containers (matchmaking + gameplay servers)"
   links:
     # Add store/trailer links here when available
-    store: https://play.google.com/store/apps/details?id=com.blyts.rumblerace"
+    store: "https://play.google.com/store/apps/details?id=com.blyts.rumblerace"
     # trailer: "https://..."
 
 - title: "Sail and Dig"
@@ -33,6 +33,11 @@
     - "Unity"
     - "C#"
     - "Mirror"
+    - "KCP"
+    - "Linux"
+    - "Docker"
+    - "Addressables"
+    - "Redis"
   description:
     - "Pirate-themed PvP online RPG built in Unity as a long-running production side project"
     - "Implemented multiplayer gameplay using Mirror with a focus on PvP interactions, responsiveness, and stability on mobile networks"
