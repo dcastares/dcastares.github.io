@@ -91,10 +91,6 @@ body {
   color: var(--link-hover-color);
 }
 
-.site-title, .site-title:visited {
-  color: #2faeff;
-}
-
 .nav-links {
   display: flex;
   gap: 2rem;
