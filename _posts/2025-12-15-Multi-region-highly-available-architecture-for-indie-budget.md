@@ -1,6 +1,8 @@
-## From Prototype to Production: A Low-Latency Multiplayer Stack on a Tight Budget
+## From prototype to production: A low-latency multiplayer stack on a tight budget
 
 When you start working on a real-time multiplayer game, the idea might seem simple, but it can escalate quickly. That happened when we started giving form to Rumble Racer with the Blyts team.
+
+<h2>The challenge</h2>
 
 Rumble Racer is an online multiplayer racing game for mobile that mixes Subway Surfers-style controls with popular arcade racing games. It’s a four-player racing game that ended up being very fun to play.
 
@@ -12,9 +14,13 @@ For production, using Mirror for matchmaking in the lobby has its flaws. Mirror 
 
 Also, due to the requirement to support worldwide players, and the low latency needed to keep a smooth real-time experience for everyone, regional servers were required.
 
-So after some thought, I designed and implemented the server architecture as follows: a .NET lobby server in each region communicating using SignalR, and multiple Mirror servers connected to each lobby server. This provides a high-availability, scalable architecture to support as many players as required, with low latency and region-scoped matchmaking, while keeping Mirror for match simulation, where headless Unity shines.”
+<h2>Server architecture</h2>
+
+So after some thought, I designed and implemented the server architecture as follows: a .NET lobby server in each region communicating using SignalR, and multiple Mirror servers connected to each lobby server. This provides a high-availability, scalable architecture to support as many players as required, with low latency and region-scoped matchmaking, while keeping Mirror for match simulation, where headless Unity shines.
 
 <img src="/assets/rr-architecture.png" alt="server architecture diagram" />
+
+<h2>Final game flow</h2>
 
 The client connects to a master lobby server on start, downloading an updated list of servers. On the first connection, the servers are latency tested, choosing the fastest responder. Once connected, matchmaking takes place on the lobby server with all the players from that region, allowing a seamlessly integrated experience. 
 
