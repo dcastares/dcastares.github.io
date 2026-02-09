@@ -1,6 +1,8 @@
 - title: "Rumble Racer"
   subtitle: "Online Multiplayer Racing (Mobile)"
   role: "Lead / Main Unity Developer"
+  image: "/assets/rumble-racer.jpg"  # Add 16:9 image path here
+  # video: "/assets/rumble-racer.mp4"  # Or use video instead of image
   stack:
     - "Unity"
     - "C#"
@@ -19,12 +21,14 @@
     - "Deployed and operated the server stack on Linux using Docker containers (matchmaking + gameplay servers)"
   links:
     # Add store/trailer links here when available
-    # store: "https://..."
+    store: https://play.google.com/store/apps/details?id=com.blyts.rumblerace"
     # trailer: "https://..."
 
 - title: "Sail and Dig"
   subtitle: "Pirate Online RPG (Mobile)"
   role: "Side Project (with brother - illustrator & art designer)"
+  image: "/assets/sail-and-dig.png"  # Add 16:9 image path here
+  # video: "/assets/sail-and-dig.mp4"  # Or use video instead of image
   stack:
     - "Unity"
     - "C#"
@@ -41,6 +45,8 @@
 - title: "Marketing & WebGL Interactive Experiences"
   subtitle: "Various Client Projects"
   role: "Lead Unity Developer"
+  # image: "/assets/webgl-experiences.jpg"  # Add 16:9 image path here
+  # video: "/assets/webgl-experiences.mp4"  # Or use video instead of image
   stack:
     - "Unity"
     - "WebGL"

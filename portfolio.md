@@ -11,6 +11,18 @@ permalink: /portfolio/
 <div class="portfolio-grid">
   {% for project in site.data.portfolio %}
     <div class="portfolio-item">
+      {% if project.video %}
+        <div class="portfolio-media">
+          <video class="portfolio-video" controls preload="metadata" poster="{{ project.image | default: '' }}">
+            <source src="{{ project.video }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      {% elsif project.image %}
+        <div class="portfolio-media">
+          <img src="{{ project.image }}" alt="{{ project.title }}" class="portfolio-image">
+        </div>
+      {% endif %}
       <h2 class="portfolio-title">{{ project.title }}</h2>
       <p class="portfolio-role">{{ project.subtitle }} • {{ project.role }}</p>
       

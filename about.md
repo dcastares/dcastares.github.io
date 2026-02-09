@@ -5,6 +5,9 @@ permalink: /about/
 ---
 
 <div class="about-hero">
+  <div class="profile-image-container">
+    <img src="/assets/profile.jpg" alt="Diego Castares" class="profile-image">
+  </div>
   <h1>Senior Unity Developer (Multiplayer & Mobile)</h1>
   <p class="about-subtitle">I build performance-minded mobile and WebGL games in Unity, with a strong focus on online multiplayer, client/server flows, and production-grade engineering. Remote-ready with US overlap.</p>
 </div>
