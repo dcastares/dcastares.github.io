@@ -45,6 +45,12 @@ permalink: /portfolio/
           {% if project.links.store %}
             <a href="{{ project.links.store }}" target="_blank" rel="noopener">Store Page</a>
           {% endif %}
+          {% if project.links["Google Play"] %}
+            <a href="{{ project.links['Google Play'] }}" target="_blank" rel="noopener">Google Play</a>
+          {% endif %}
+          {% if project.links["App Store"] %}
+            <a href="{{ project.links['App Store'] }}" target="_blank" rel="noopener">App Store</a>
+          {% endif %}
           {% if project.links.trailer %}
             <a href="{{ project.links.trailer }}" target="_blank" rel="noopener">Trailer</a>
           {% endif %}
