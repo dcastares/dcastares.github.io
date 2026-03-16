@@ -13,15 +13,15 @@
     - "Docker"
     - "Addressables"
   description:
-    - "Lead developer on an online multiplayer mobile racing game, owning systems from prototype to production"
-    - "Achieved stable performance at 60 FPS on mobile through profiling-driven CPU/GPU and memory optimizations"
+    - "Stable performance at 60 FPS on mobile through profiling-driven CPU/GPU and memory optimizations"
     - "Reduced network usage from ~1 Mbps (prototype) to 20–30 Kbps per player in production by optimizing sync strategy, tick rates, message payloads, and replication (Mirror over KCP)"
     - "Built and maintained end-to-end online flow: matchmaking queue → match start → race session → results → return to lobby, backed by a .NET matchmaking server using SignalR in a multi-region and highly available server infrastructure"
-    - "Improved loading times and content delivery through a production pipeline based on Addressables"
-    - "Deployed and operated the server stack on Linux using Docker containers (matchmaking + gameplay servers)"
+    - "Loading times and content delivery through a production pipeline based on Addressables"
+    - "Deployed and operated the server stack on Linux using Docker containers (Lobby and matchmaking server + gameplay servers)"
   links:
     # Add store/trailer links here when available
-    store: "https://play.google.com/store/apps/details?id=com.blyts.rumblerace"
+    Google Play: "https://play.google.com/store/apps/details?id=com.blyts.rumblerace"
+    App Store: "https://apps.apple.com/es/app/rumble-racer/id6744172963"
     # trailer: "https://..."
 
 - title: "Sail and Dig"
@@ -41,7 +41,7 @@
   description:
     - "Pirate-themed PvP online RPG built in Unity as a long-running production side project"
     - "Implemented multiplayer gameplay using Mirror with a focus on PvP interactions, responsiveness, and stability on mobile networks"
-    - "Built progression/quest-driven structure and gameplay systems designed for iterative content expansion"
+    - "Progression/quest-driven structure and gameplay systems designed for iterative content expansion"
   links:
     # Add store/trailer links here when available
     # store: "https://..."
