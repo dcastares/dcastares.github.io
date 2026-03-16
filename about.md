@@ -9,18 +9,18 @@ permalink: /about/
     <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Diego Castares" class="profile-image">
   </div>
   <h1>Senior Unity Developer</h1>
-  <p class="about-subtitle">I build performance-minded mobile and WebGL games in Unity, with a strong focus on online multiplayer, client/server flows, and production-grade engineering. Remote-ready with US overlap.</p>
+  <p class="about-subtitle">I build multiplayer games in Unity, client/server flows, and distributed systems.</p>
 </div>
 
 <div class="about-section">
   <h2>Highlights</h2>
   <ul>
-    <li>Lead developer on an online multiplayer mobile racing game: owned systems from prototype to production</li>
-    <li>Profiling-driven optimizations to hit stable 60 FPS on mobile</li>
-    <li>Reduced network usage from ~1 Mbps (prototype) to ~20–30 Kbps per player in production by optimizing replication/tick rates/payloads (Mirror over KCP)</li>
-    <li>Built end-to-end online flow: matchmaking → match → results → return to lobby, backed by a .NET matchmaking server (SignalR) with multi-region / HA infrastructure</li>
-    <li>Deployed and operated server stack on Linux + Docker</li>
-    <li>Content pipeline improvements using Addressables</li>
+    <li>Lead developer on Rumble Racer, an online multiplayer mobile racing game</li>
+    <li>Profiling-driven optimizations</li>
+    <li>Network latency and bandwitdh optimizations</li>
+    <li>End-to-end online flow: matchmaking → match → results → lobby, backed by a .NET matchmaking server (SignalR) with multi-region / HA infrastructure</li>
+    <li>Server stack using Linux + Docker</li>
+    <li>Content distribution using Addressables</li>
   </ul>
 </div>
 
@@ -69,7 +69,7 @@ permalink: /about/
 
 <div class="about-section">
   <h2>AI-Assisted Workflow</h2>
-  <p>I use LLMs (often via Cursor) to speed up design and implementation. I compare options/tradeoffs, implement incrementally, then review, test, and profile, owning final decisions and code quality.</p>
+  <p>I use LLMs to speed up design and implementation. I compare options/tradeoffs, implement incrementally, then review, test, and profile, owning final decisions and code quality.</p>
 </div>
 
 <div class="contact-links">
